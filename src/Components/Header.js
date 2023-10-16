@@ -23,7 +23,7 @@ function Header() {
         <div className="leading-[80px]">
         <h1 className="font-[600] text-[#FD9D4D]">Full-Stack</h1>
         <h1 className="font-[600] text-white">Web Developer</h1>
-        <p className="2xl:hidden font-normal mt-[20px] text-[20px] leading-[1.35] text-[#ADACAF]">
+        <p className="2xl:hidden font-normal mt-[20px] text-[19px] leading-[1.35] text-[#ADACAF]">
           Hey, I'm David — a passionate full-stack web<br/>
           developer. I love pushing creative boundaries,<br/>
           coding & designing unique user experiences.
