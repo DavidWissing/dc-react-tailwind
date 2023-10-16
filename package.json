@@ -25,7 +25,7 @@
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git checkout main && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "local_build": "react-scripts build"
   },
   "eslintConfig": {
