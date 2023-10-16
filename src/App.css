@@ -14,7 +14,7 @@
 /* 63px @ 0px increasing to 80px @ 1920px */
 @media (min-width: 0px) {
   h1 {
-    font-size: calc(3.5375rem + ((1vw - 0px) * 0.8854));
+    font-size: calc(2.40rem + ((1vw - 0px) * 0.8854));
     /* Note: The calc base value (3.9375rem) MUST be stated in REM to maintain accessibility */
     /* Where: 0.8854 = 100 * font-size_difference / viewport_width_difference */
 
@@ -27,4 +27,27 @@
   h1 {
     font-size: 80px;
   }
+}
+
+
+/* 14px @ 0px increasing to 20px @ 1920px */
+@media (min-width: 0px) {
+  p {
+    font-size: calc(0.805rem + ((1vw - 0px) * 0.3125));
+    /* Note: The calc base value (0.875rem) MUST be stated in REM to maintain accessibility */
+    /* Where: 0.3125 = 100 * font-size_difference / viewport_width_difference */
+
+    /* Safari resize fix */
+    min-height: 0vw;
+  }
+}
+/* Prevent scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+body {
+  overflow-x: hidden;
 }

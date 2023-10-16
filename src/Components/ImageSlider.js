@@ -20,6 +20,7 @@ const ImageSlider = () => {
       speed: 500,
       slidesToShow: 5, // Adjust the number of slides visible at a time
       slidesToScroll: 1,
+      arrows: false, // Hide the arrows
       autoplay: true, // Enable autoplay
       autoplaySpeed: 2000, // Adjust the autoplay speed in milliseconds (2 seconds in this example)
     };

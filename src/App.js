@@ -13,7 +13,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-[100vw] overflow-hidden">
       <div className="overflow-hidden bg-[url('./Images/phoenix-hero-background.png')]  bg-custom sm:bg-custom-sm md:bg-custom-md lg:bg-custom-lg xl:bg-custom-xl 2xl:bg-customtwoxl bg-cover 2xl:w-full bg-no-repeat">
         <Menu/>
         <Header/>

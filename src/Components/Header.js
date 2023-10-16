@@ -15,15 +15,15 @@ function Header() {
   }, []);
 
   return (
-    <div className="flex xl:ml-[15vw] mx-[10vw] 2xl:mx-[15vw]" ref={containerRef}>
+    <div className="flex xl:ml-[15vw] ml-[10vw] 2xl:mx-[15vw] overflow-hidden" ref={containerRef}>
       <div
         
         className="w-5/5  my-[150px] 2xl:my-[225px] mb-[200px] z-10" 
       >
-        <div className="leading-[80px]">
+        <div className="leading-[60px]">
         <h1 className="font-[600] text-[#FD9D4D]">Full-Stack</h1>
         <h1 className="font-[600] text-white">Web Developer</h1>
-        <p className="2xl:hidden font-normal mt-[20px] text-[19px] leading-[1.35] text-[#ADACAF]">
+        <p className="2xl:hidden font-normal mt-[20px] text-[15px] leading-[1.35] text-[#ADACAF]">
           Hey, I'm David — a passionate full-stack web<br/>
           developer. I love pushing creative boundaries,<br/>
           coding & designing unique user experiences.
