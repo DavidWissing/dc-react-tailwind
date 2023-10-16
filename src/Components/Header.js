@@ -20,7 +20,7 @@ function Header() {
         
         className="w-5/5  my-[150px] 2xl:my-[225px] mb-[200px] z-10" 
       >
-        <div className="leading-[60px]">
+        <div className="leading-[60px] xl:leading-[80px]">
         <h1 className="font-[600] text-[#FD9D4D]">Full-Stack</h1>
         <h1 className="font-[600] text-white">Web Developer</h1>
         <p className="2xl:hidden font-normal mt-[20px] text-[15px] leading-[1.35] text-[#ADACAF]">
