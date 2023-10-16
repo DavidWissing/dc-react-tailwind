@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a60f0f6b.css",
-    "main.js": "/static/js/main.0dd99acf.js",
+    "main.css": "/static/css/main.bf567b07.css",
+    "main.js": "/static/js/main.fdf873e0.js",
     "static/js/787.9c17deea.chunk.js": "/static/js/787.9c17deea.chunk.js",
     "static/media/phoenix-hero-background.png": "/static/media/phoenix-hero-background.ba7c1d7c1106202cf9d5.png",
     "static/media/egg-space.png": "/static/media/egg-space.fbdb177c1798a941c522.png",
@@ -24,12 +24,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/3m.svg": "/static/media/3m.d7acabe2e895350e0b3c8ffe411de55c.svg",
     "index.html": "/index.html",
-    "main.a60f0f6b.css.map": "/static/css/main.a60f0f6b.css.map",
-    "main.0dd99acf.js.map": "/static/js/main.0dd99acf.js.map",
+    "main.bf567b07.css.map": "/static/css/main.bf567b07.css.map",
+    "main.fdf873e0.js.map": "/static/js/main.fdf873e0.js.map",
     "787.9c17deea.chunk.js.map": "/static/js/787.9c17deea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a60f0f6b.css",
-    "static/js/main.0dd99acf.js"
+    "static/css/main.bf567b07.css",
+    "static/js/main.fdf873e0.js"
   ]
 }
