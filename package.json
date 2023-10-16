@@ -25,8 +25,10 @@
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "local_build": "react-scripts build"
+    "local_build": "react-scripts build",
+    "add-domain": "echo \"devecreative.com\" > build/CNAME",
+    "deploy": "npm run add-domain && gh-pages -d build",
+    "bd": "npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": [
